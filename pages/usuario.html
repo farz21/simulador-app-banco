@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Usuario - AFP Digital Bank</title>
+<link rel="icon" type="image/png" href="../assets/logo.png">
+<link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+<header>
+  <img src="../assets/logo.png" alt="Logo AFP Digital Bank">
+  <h1>AFP Digital Bank</h1>
+</header>
+
+<main class="usuario-panel">
+  <h2 id="userNombre" class="text-center mt-2">Bienvenido</h2>
+  <h2 id="userApellido" class="text-center mt-1"></h2>
+
+  <div class="user-actions">
+<button id="cargarBtn" class="btn">Cargar saldo</button>
+<button id="modificarBtn" class="btn">Retirar saldo</button>
+<button class="btn btn-consultar" id="consultarBtn">Consultar info</button>
+<button id="logoutBtn" class="btn btn-danger">Cerrar sesión</button>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 AFP Digital Bank. Todos los derechos reservados.</p>
+  <p>Desarrollado por: Fabrizio Coronel, Alexis Gordillo y Pilar Santillán</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/usuario.js"></script>
+
+</body>
+</html>
